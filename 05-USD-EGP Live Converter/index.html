@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Currency Converter</title>
+
+<style>
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding:0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#141e30,#243b55);
+}
+
+.card{
+    background:white;
+    padding:40px;
+    border-radius:20px;
+    width:350px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,0.3);
+    animation: fadeIn 0.8s ease;
+}
+
+h1{
+    margin-bottom:25px;
+    color:#333;
+}
+
+.input-group{
+    position:relative;
+    margin-bottom:20px;
+}
+
+input{
+    width:100%;
+    padding:15px;
+    border-radius:10px;
+    border:2px solid #ddd;
+    font-size:18px;
+    transition:0.3s;
+    outline:none;
+}
+
+input:focus{
+    border-color:#4facfe;
+    box-shadow:0 0 10px rgba(79,172,254,0.4);
+    transform:scale(1.03);
+}
+
+.rate{
+    margin-top:10px;
+    font-size:14px;
+    color:#777;
+}
+
+@keyframes fadeIn{
+    from{
+        opacity:0;
+        transform:translateY(-20px);
+    }
+    to{
+        opacity:1;
+        transform:translateY(0);
+    }
+}
+</style>
+
+</head>
+<body>
+
+<div class="card">
+    <h1>💱 USD ⇄ EGP</h1>
+
+    <div class="input-group">
+        <input type="number" id="usd" placeholder="Enter USD">
+    </div>
+
+    <div class="input-group">
+        <input type="number" id="egp" placeholder="Enter EGP">
+    </div>
+
+    <div class="rate">
+        1 USD = 47 EGP
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
