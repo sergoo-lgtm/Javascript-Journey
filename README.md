@@ -22,6 +22,7 @@
 | **03** | [**Pig Game 🎲**](./03-Pig-Game) | `Algorithms` `State` | 🔥 HARDCORE |
 | **04** | [**Wallpaper Engine**](./04-JS-DOM-Wallpaper-Project) | `Manipulation` `Art` | ✨ POLISHED |
 | **05** | [**USD-EGP Live Converter 💱**](./05-USD-EGP-Live-Converter) | `JS` `DOM` `Real-Time` | 🚀 ACTIVE |
+| **06** | [**Sliding Sidebar Menu 🏝️**](./06-Sliding-Sidebar-Menu) | `UI/UX` `DOM` `Animation` | ⚡ NEW |
 
 ---
 
